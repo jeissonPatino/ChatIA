@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form method="POST" action="/login">
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
+
+        <input type="submit" value="Iniciar sesión">
+    </form>
+    <p>¿No tienes cuenta? <a href="{{ url_for('registrar') }}">Regístrate aquí</a></p>
+</body>
+</html>

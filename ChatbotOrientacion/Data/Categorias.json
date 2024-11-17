@@ -1,0 +1,20 @@
+{
+    "Tecnología": [
+      "¿Te gusta desarmar y armar aparatos electrónicos?",
+      "¿Te interesa aprender sobre programación?",
+      "¿Prefieres resolver problemas lógicos o creativos?",
+      "¿Te sientes cómodo/a trabajando con computadoras la mayor parte del tiempo?"
+    ],
+    "Ciencias": [
+      "¿Te gustan las matemáticas y la física?",
+      "¿Te interesa investigar y descubrir cosas nuevas?",
+      "¿Eres curioso/a y te gusta hacer experimentos?",
+      "¿Te gustaría trabajar en un laboratorio o en el campo?"
+    ],
+    "Artes": [
+      "¿Te gusta dibujar, pintar o esculpir?",
+      "¿Disfrutas de la música, el teatro o la danza?",
+      "¿Eres creativo/a y te gusta expresarte a través del arte?",
+      "¿Te gustaría trabajar en un ambiente creativo e inspirador?"
+    ]
+  }
