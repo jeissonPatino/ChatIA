@@ -21,7 +21,7 @@ def main():
         try:
             with open(f'Data/user/{st.session_state.correo}.json', 'r') as f:
                 usuario = json.load(f)
-            mostrar_chat(usuario)
+                mostrar_chat(usuario) 
         except FileNotFoundError:
             st.error("Error al obtener la información del usuario")
         if st.sidebar.button("Cerrar sesión"):

@@ -1,0 +1,72 @@
+{
+    "usuario": {
+        "nombre": "Jeisson Andres",
+        "apellidos": "Pati\u00f1o Ramirez",
+        "edad": 29,
+        "nacionalidad": "Colombia",
+        "correo": "ja.patino@urepublicana.edu.co",
+        "contrase\u00f1a": "1f54e268e057ea90a19c01adf7641d2a9b23b64e0a099009b12f0c87b5758d69"
+    },
+    "respuestas_tests": {
+        "S5": "1",
+        "N2": ""
+    },
+    "historial_chat": [
+        {
+            "rol": "user",
+            "contenido": "si me gusta ser lider"
+        },
+        {
+            "rol": "assistant",
+            "contenido": "No entiendo tu pregunta. \u00bfPodr\u00edas reformularla?"
+        },
+        {
+            "rol": "user",
+            "contenido": "si me gusta ser lider"
+        },
+        {
+            "rol": "assistant",
+            "contenido": "No entiendo tu pregunta. \u00bfPodr\u00edas reformularla?"
+        },
+        {
+            "rol": "user",
+            "contenido": "si me gusta ser lider"
+        },
+        {
+            "rol": "assistant",
+            "contenido": "No entiendo tu pregunta. \u00bfPodr\u00edas reformularla?"
+        },
+        {
+            "rol": "user",
+            "contenido": "si me gusta ser lider"
+        },
+        {
+            "rol": "assistant",
+            "contenido": "No entiendo tu pregunta. \u00bfPodr\u00edas reformularla?"
+        },
+        {
+            "rol": "user",
+            "contenido": "si me gusta ser lider"
+        },
+        {
+            "rol": "assistant",
+            "contenido": "No entiendo tu pregunta. \u00bfPodr\u00edas reformularla?"
+        },
+        {
+            "rol": "user",
+            "contenido": "si me gusta ser lider"
+        },
+        {
+            "rol": "assistant",
+            "contenido": "No entiendo tu pregunta. \u00bfPodr\u00edas reformularla?"
+        },
+        {
+            "rol": "user",
+            "contenido": "si me gusta ser lider"
+        },
+        {
+            "rol": "assistant",
+            "contenido": "No entiendo tu pregunta. \u00bfPodr\u00edas reformularla?"
+        }
+    ]
+}
