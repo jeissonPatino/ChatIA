@@ -1,0 +1,96 @@
+{
+    "eneagrama_test": {
+      "instructions": "Responde cada pregunta seleccionando el nivel que mejor describa tu comportamiento o pensamiento. Usa una escala de 1 a 5, donde 1 es 'Totalmente en desacuerdo' y 5 es 'Totalmente de acuerdo'.",
+      "types": {
+        "Tipo 1 - El Perfeccionista": {
+          "description": "Personas con un fuerte sentido del deber, organización y ética.",
+          "questions": [
+            {"id": "P1_1", "text": "Tengo altos estándares para mí mismo/a y para los demás.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P1_2", "text": "Me enojo cuando las cosas no se hacen de manera correcta.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P1_3", "text": "A menudo me encuentro corrigiendo errores de los demás.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P1_4", "text": "Me esfuerzo por ser perfecto/a en todo lo que hago.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]}
+          ]
+        },
+        "Tipo 2 - El Ayudador": {
+          "description": "Personas empáticas y orientadas a los demás, que buscan ser necesitadas.",
+          "questions": [
+            {"id": "P2_1", "text": "Encuentro difícil decir 'no' cuando alguien me pide ayuda.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P2_2", "text": "Me siento valorado/a cuando soy útil para otros.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P2_3", "text": "A menudo antepongo las necesidades de los demás a las mías.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P2_4", "text": "Disfruto sentirme necesario/a para quienes me rodean.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]}
+          ]
+        },
+        "Tipo 3 - El Triunfador": {
+          "description": "Personas enfocadas en el éxito, la eficiencia y la imagen.",
+          "questions": [
+            {"id": "P3_1", "text": "Me esfuerzo por ser reconocido/a por mis logros.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P3_2", "text": "Soy competitivo/a y disfruto ser el/la mejor en lo que hago.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P3_3", "text": "Evito mostrar debilidad frente a los demás.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P3_4", "text": "Me preocupa mucho cómo los demás me perciben.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]}
+          ]
+        },
+        "Tipo 4 - El Individualista": {
+          "description": "Personas creativas, sensibles y con un fuerte sentido de identidad.",
+          "questions": [
+            {"id": "P4_1", "text": "A menudo siento que soy diferente de los demás.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P4_2", "text": "Mis emociones son muy importantes para mí.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P4_3", "text": "Busco experiencias únicas que reflejen mi identidad.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P4_4", "text": "A veces me siento incomprendido/a o aislado/a.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]}
+          ]
+        },
+        "Tipo 5 - El Investigador": {
+          "description": "Personas analíticas, independientes y orientadas al conocimiento.",
+          "questions": [
+            {"id": "P5_1", "text": "Prefiero observar antes de participar en una situación nueva.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P5_2", "text": "Valoro tener tiempo para reflexionar y analizar las cosas.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P5_3", "text": "A menudo prefiero la soledad para enfocarme en mis intereses.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P5_4", "text": "Me siento incómodo/a cuando otros invaden mi espacio personal.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]}
+          ]
+        },
+        "Tipo 6 - El Leal": {
+          "description": "Personas confiables, orientadas a la seguridad y la preparación.",
+          "questions": [
+            {"id": "P6_1", "text": "A menudo me preocupo por posibles problemas futuros.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P6_2", "text": "Busco la aprobación y guía de figuras de autoridad.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P6_3", "text": "Soy muy leal a las personas y causas que valoro.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P6_4", "text": "Prefiero evitar los riesgos siempre que sea posible.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]}
+          ]
+        },
+        "Tipo 7 - El Entusiasta": {
+          "description": "Personas enérgicas, optimistas y orientadas al disfrute.",
+          "questions": [
+            {"id": "P7_1", "text": "Me emociono con facilidad ante nuevas oportunidades.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P7_2", "text": "Prefiero mantenerme ocupado/a y evitando el aburrimiento.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P7_3", "text": "A veces me cuesta comprometerme con una sola cosa.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+            {"id": "P7_4", "text": "Busco experiencias que sean emocionantes y placenteras.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]}
+          ]
+        },
+        "Tipo 8 - El Desafiador": {
+            "description": "Personas asertivas, protectoras y orientadas al poder.",
+            "questions": [
+                {"id": "P8_1", "text": "Soy directo/a y no tengo miedo de decir lo que pienso.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+                {"id": "P8_2", "text": "Me esfuerzo por mantener el control en las situaciones.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+                {"id": "P8_3", "text": "Defiendo a quienes considero más débiles o vulnerables.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+                {"id": "P8_4", "text": "Evito mostrar vulnerabilidad frente a los demás.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]}
+            ]
+        },
+        "Tipo 9 - El Pacificador": {
+            "description": "Personas conciliadoras, orientadas a la paz y la armonía.",
+            "questions": [
+                {"id": "P9_1", "text": "Prefiero evitar conflictos siempre que sea posible.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]},
+                {"id": "P9_2", "text": "A menudo ignoro mis propias necesidades para mantener la paz.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+                {"id": "P9_3", "text": "Me resulta difícil tomar decisiones importantes rápidamente.", "peso": 1, "opciones": ["1", "2", "3", "4", "5"]},
+                {"id": "P9_4", "text": "Me esfuerzo por llevarme bien con todos los que me rodean.", "peso": 2, "opciones": ["1", "2", "3", "4", "5"]}
+            ]
+        }
+        },
+        "response_type": "multiple_choice",
+        "scale": {
+            "1": "Totalmente en desacuerdo",
+            "2": "En desacuerdo",
+            "3": "Neutral",
+            "4": "De acuerdo",
+            "5": "Totalmente de acuerdo"
+        }
+    }
+}

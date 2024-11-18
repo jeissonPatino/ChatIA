@@ -1,0 +1,56 @@
+{
+    "mini_ipip_test": {
+      "Apertura": {
+        "description": "Evalúa la creatividad, curiosidad y apertura a nuevas experiencias.",
+        "questions": [
+          {"id": "A1", "text": "Tengo una imaginación activa.", "inversa": false},
+          {"id": "A2", "text": "Estoy interesado/a en ideas abstractas.", "inversa": false},
+          {"id": "A3", "text": "Evito los eventos culturales o artísticos.", "inversa": true},
+          {"id": "A4", "text": "No estoy particularmente interesado/a en nuevas experiencias.", "inversa": true}
+        ]
+      },
+      "Responsabilidad": {
+        "description": "Evalúa la organización, autodisciplina y sentido del deber.",
+        "questions": [
+          {"id": "C1", "text": "Soy alguien que cumple con sus deberes.", "inversa": false},
+          {"id": "C2", "text": "Soy ordenado/a y meticuloso/a.", "inversa": false},
+          {"id": "C3", "text": "Tiendo a ser descuidado/a en mi trabajo.", "inversa": true},
+          {"id": "C4", "text": "A menudo me resulta difícil terminar lo que comienzo.", "inversa": true}
+        ]
+      },
+      "Extraversión": {
+        "description": "Evalúa la sociabilidad, entusiasmo y energía en interacciones sociales.",
+        "questions": [
+          {"id": "E1", "text": "Soy una persona sociable y extrovertida.", "inversa": false},
+          {"id": "E2", "text": "Me siento cómodo/a liderando grupos.", "inversa": false},
+          {"id": "E3", "text": "Prefiero estar solo/a y no socializar mucho.", "inversa": true},
+          {"id": "E4", "text": "No tengo mucha energía en eventos sociales.", "inversa": true}
+        ]
+      },
+      "Amabilidad": {
+        "description": "Evalúa la empatía, altruismo y cooperación.",
+        "questions": [
+          {"id": "A1", "text": "Tiendo a confiar en los demás.", "inversa": false},
+          {"id": "A2", "text": "Soy considerado/a y atento/a con las necesidades de los demás.", "inversa": false},
+          {"id": "A3", "text": "A veces trato a las personas de manera descortés.", "inversa": true},
+          {"id": "A4", "text": "Estoy dispuesto/a a competir en lugar de colaborar.", "inversa": true}
+        ]
+      },
+      "Neuroticismo": {
+        "description": "Evalúa la tendencia a experimentar emociones negativas.",
+        "questions": [
+          {"id": "N1", "text": "Me preocupo fácilmente.", "inversa": false},
+          {"id": "N2", "text": "Tiendo a estar de mal humor.", "inversa": false},
+          {"id": "N3", "text": "Normalmente me siento relajado/a.", "inversa": true},
+          {"id": "N4", "text": "No suelo sentirme ansioso/a.", "inversa": true}
+        ]
+      },
+      "escala_respuestas": {
+        "1": "Totalmente en desacuerdo",
+        "2": "En desacuerdo",
+        "3": "Neutral",
+        "4": "De acuerdo",
+        "5": "Totalmente de acuerdo"
+      }
+    }
+  }

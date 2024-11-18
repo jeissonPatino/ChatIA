@@ -1,20 +1,32 @@
-from flask import Flask, render_template, request, redirect, url_for
-import os
+import streamlit as st
 import json
+from authentication import registrar_usuario, iniciar_sesion
+from chatbot import mostrar_chat
 
-app = Flask(__name__)
+def main():
+    st.title("Sistema de autenticación con Streamlit")
+    if "autenticado" not in st.session_state:
+        st.session_state.autenticado = False
 
-# Crea la carpeta "Data" si no existe
-if not os.path.exists("Data"):
-    os.makedirs("Data")
-
-@app.route('/')
-def index():
-    return render_template('login.html')
-
-@app.route('/registrar')
-def registrar():
-    return render_template('registro.html')
+    if not st.session_state.autenticado:
+        opcion = st.sidebar.radio("Selecciona una opción", ["Registrarse", "Iniciar sesión"])
+        if opcion == "Registrarse":
+            registrar_usuario()
+        elif opcion == "Iniciar sesión":
+            if iniciar_sesion():
+                st.session_state.autenticado = True
+                st.session_state.correo = st.session_state.ultimo_correo
+                st.rerun()
+    else:   
+        try:
+            with open(f'Data/user/{st.session_state.correo}.json', 'r') as f:
+                usuario = json.load(f)
+            mostrar_chat(usuario)
+        except FileNotFoundError:
+            st.error("Error al obtener la información del usuario")
+        if st.sidebar.button("Cerrar sesión"):
+            st.session_state.autenticado = False
+            st.rerun()
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    main()

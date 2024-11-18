@@ -1,0 +1,173 @@
+{
+    "self_directed_search": {
+      "description": "El Self-Directed Search (SDS) es un test que te ayuda a identificar tus intereses, habilidades y valores para que puedas explorar carreras que se ajusten a tu perfil.",
+      "Realista": {
+        "description": "Evalúa preferencias por actividades prácticas y físicas, trabajando con objetos, herramientas o máquinas.",
+        "questions": [
+          { "id": "R1", "text": "Disfruto trabajar al aire libre.", "opciones": ["Sí", "No"] },
+          { "id": "R2", "text": "Me gusta construir o reparar cosas.", "opciones": ["Sí", "No"] },
+          { "id": "R3", "text": "Prefiero trabajos que requieren esfuerzo físico.", "opciones": ["Sí", "No"] },
+          { "id": "R4", "text": "Disfruto usar herramientas o maquinaria.", "opciones": ["Sí", "No"] },
+          { "id": "R5", "text": "Me gusta trabajar con mis manos.", "opciones": ["Sí", "No"] },
+          { "id": "R6", "text": "Prefiero trabajar con cosas en lugar de con personas.", "opciones": ["Sí", "No"] },
+          { "id": "R7", "text": "Me gusta resolver problemas prácticos.", "opciones": ["Sí", "No"] },
+          { "id": "R8", "text": "Disfruto las actividades al aire libre como la caza, la pesca o la jardinería.", "opciones": ["Sí", "No"] }
+        ]
+      },
+      "Investigador": {
+        "description": "Evalúa el interés por investigar, analizar y comprender fenómenos, a menudo en ciencias y matemáticas.",
+        "questions": [
+          { "id": "I1", "text": "Me interesa resolver problemas matemáticos o científicos.", "opciones": ["Sí", "No"] },
+          { "id": "I2", "text": "Disfruto aprender sobre cómo funcionan las cosas.", "opciones": ["Sí", "No"] },
+          { "id": "I3", "text": "Prefiero actividades que requieran pensar críticamente.", "opciones": ["Sí", "No"] },
+          { "id": "I4", "text": "Me gusta trabajar en proyectos de investigación.", "opciones": ["Sí", "No"] },
+          { "id": "I5", "text": "Disfruto leer libros o artículos científicos.", "opciones": ["Sí", "No"] },
+          { "id": "I6", "text": "Me gusta hacer experimentos.", "opciones": ["Sí", "No"] },
+          { "id": "I7", "text": "Me interesa aprender sobre nuevas tecnologías.", "opciones": ["Sí", "No"] },
+          { "id": "I8", "text": "Me gusta resolver problemas complejos.", "opciones": ["Sí", "No"] }
+        ]
+      },
+      "Artístico": {
+        "description": "Evalúa la creatividad y la preferencia por expresarse a través del arte, la música o el diseño.",
+        "questions": [
+          { "id": "A1", "text": "Me gusta expresar mis ideas a través del arte o la música.", "opciones": ["Sí", "No"] },
+          { "id": "A2", "text": "Disfruto crear cosas nuevas y originales.", "opciones": ["Sí", "No"] },
+          { "id": "A3", "text": "Prefiero trabajos que impliquen diseño o creatividad.", "opciones": ["Sí", "No"] },
+          { "id": "A4", "text": "Encuentro satisfacción en actividades artísticas.", "opciones": ["Sí", "No"] },
+          { "id": "A5", "text": "Disfruto tocar un instrumento musical o cantar.", "opciones": ["Sí", "No"] },
+          { "id": "A6", "text": "Me gusta escribir cuentos, poemas o artículos.", "opciones": ["Sí", "No"] },
+          { "id": "A7", "text": "Me gusta dibujar, pintar o esculpir.", "opciones": ["Sí", "No"] },
+          { "id": "A8", "text": "Me gusta ir a museos, conciertos o teatros.", "opciones": ["Sí", "No"] }
+        ]
+      },
+      "Social": {
+        "description": "Evalúa el interés por ayudar a otros, enseñar y participar en actividades comunitarias.",
+        "questions": [
+          { "id": "S1", "text": "Me gusta ayudar a las personas con sus problemas.", "opciones": ["Sí", "No"] },
+          { "id": "S2", "text": "Disfruto enseñar o entrenar a otros.", "opciones": ["Sí", "No"] },
+          { "id": "S3", "text": "Prefiero actividades donde pueda colaborar con los demás.", "opciones": ["Sí", "No"] },
+          { "id": "S4", "text": "Me interesa participar en proyectos comunitarios.", "opciones": ["Sí", "No"] },
+          { "id": "S5", "text": "Me gusta trabajar con niños o jóvenes.", "opciones": ["Sí", "No"] },
+          { "id": "S6", "text": "Me gusta cuidar de personas mayores o enfermas.", "opciones": ["Sí", "No"] },
+          { "id": "S7", "text": "Me gusta escuchar a las personas y comprender sus problemas.", "opciones": ["Sí", "No"] },
+          { "id": "S8", "text": "Me gusta trabajar en equipo para alcanzar objetivos comunes.", "opciones": ["Sí", "No"] }
+        ]
+      },
+      "Emprendedor": {
+        "description": "Evalúa la preferencia por liderar, persuadir y gestionar a otros para alcanzar objetivos.",
+        "questions": [
+          { "id": "E1", "text": "Disfruto liderar proyectos o equipos.", "opciones": ["Sí", "No"] },
+          { "id": "E2", "text": "Prefiero trabajos que impliquen convencer a otros.", "opciones": ["Sí", "No"] },
+          { "id": "E3", "text": "Me siento cómodo/a tomando decisiones importantes.", "opciones": ["Sí", "No"] },
+          { "id": "E4", "text": "Me gusta planificar y organizar eventos.", "opciones": ["Sí", "No"] },
+          { "id": "E5", "text": "Me gusta asumir riesgos y desafíos.", "opciones": ["Sí", "No"] },
+          { "id": "E6", "text": "Me gusta hablar en público.", "opciones": ["Sí", "No"] },
+          { "id": "E7", "text": "Me gusta negociar y llegar a acuerdos.", "opciones": ["Sí", "No"] },
+          { "id": "E8", "text": "Me gusta motivar a otros para que alcancen sus metas.", "opciones": ["Sí", "No"] }
+        ]
+      },
+      "Convencional": {
+        "description": "Evalúa el interés por actividades organizadas, estructuradas y orientadas a los detalles.",
+        "questions": [
+          { "id": "C1", "text": "Disfruto actividades que requieren organizar datos o documentos.", "opciones": ["Sí", "No"] },
+          { "id": "C2", "text": "Me gusta trabajar con números o registros.", "opciones": ["Sí", "No"] },
+          { "id": "C3", "text": "Prefiero trabajos que sigan procedimientos establecidos.", "opciones": ["Sí", "No"] },
+          { "id": "C4", "text": "Encuentro satisfacción en mantener el orden y la precisión.", "opciones": ["Sí", "No"] },
+          { "id": "C5", "text": "Me gusta trabajar en un ambiente ordenado y limpio.", "opciones": ["Sí", "No"] },
+          { "id": "C6", "text": "Me gusta seguir instrucciones y reglas claras.", "opciones": ["Sí", "No"] },
+          { "id": "C7", "text": "Me gusta trabajar con computadoras.", "opciones": ["Sí", "No"] },
+          { "id": "C8", "text": "Me gusta llevar un registro de mis actividades.", "opciones": ["Sí", "No"] }
+        ]
+      },
+      "escala_respuestas": {
+      "Sí": 5,
+      "No": 1
+    },
+    "codigos_riasec": {
+      "R": {
+        "nombre": "Realista", 
+        "descripcion": "Las personas realistas disfrutan trabajar con objetos, herramientas y máquinas. Suelen ser prácticas, mecánicas y les gusta trabajar al aire libre.", 
+        "carreras": [
+          "Mecánico/a de automóviles", 
+          "Electricista", 
+          "Carpintero/a", 
+          "Agricultor/a", 
+          "Ingeniero/a civil", 
+          "Piloto/a", 
+          "Técnico/a de mantenimiento", 
+          "Bombero/a", 
+          "Oficial de policía"
+        ] 
+      },
+      "I": {
+        "nombre": "Investigador", 
+        "descripcion": "Las personas investigadoras son curiosas, analíticas y les gusta resolver problemas. Disfrutan aprender sobre ciencia, tecnología y matemáticas.", 
+        "carreras": [
+          "Científico/a", 
+          "Matemático/a", 
+          "Programador/a", 
+          "Analista de datos", 
+          "Médico/a", 
+          "Psicólogo/a", 
+          "Arqueólogo/a", 
+          "Investigador/a de mercado"
+        ] 
+      },
+      "A": {
+        "nombre": "Artístico", 
+        "descripcion": "Las personas artísticas son creativas, expresivas y disfrutan del arte, la música y el diseño. Suelen ser originales, intuitivas y sensibles.", 
+        "carreras": [
+          "Músico/a", 
+          "Artista", 
+          "Diseñador/a gráfico/a", 
+          "Escritor/a", 
+          "Actor/Actriz", 
+          "Bailarín/Bailarina", 
+          "Fotógrafo/a", 
+          "Arquitecto/a"
+        ] 
+      },
+      "S": {
+        "nombre": "Social", 
+        "descripcion": "Las personas sociales son amables, serviciales y les gusta ayudar a los demás. Disfrutan trabajar con personas y contribuir a la sociedad.", 
+        "carreras": [
+          "Maestro/a", 
+          "Trabajador/a social", 
+          "Enfermero/a", 
+          "Consejero/a", 
+          "Terapeuta", 
+          "Veterinario/a", 
+          "Sacerdote/Monja", 
+          "Gerente de recursos humanos"
+        ] 
+      },
+      "E": {
+        "nombre": "Emprendedor", 
+        "descripcion": "Las personas emprendedoras son líderes, persuasivas y les gusta tomar la iniciativa. Disfrutan de los desafíos y de alcanzar metas.", 
+        "carreras": [
+          "Empresario/a", 
+          "Gerente", 
+          "Vendedor/a", 
+          "Abogado/a", 
+          "Político/a", 
+          "Agente de bienes raíces", 
+          "Publicista", 
+          "Periodista"
+        ] 
+      },
+      "C": {
+        "nombre": "Convencional", 
+        "descripcion": "Las personas convencionales son organizadas, detallistas y les gusta seguir reglas y procedimientos. Disfrutan trabajar con datos y números.", 
+        "carreras": [
+          "Contador/a", 
+          "Secretario/a", 
+          "Bibliotecario/a", 
+          "Analista financiero/a", 
+          "Asistente administrativo/a", 
+          "Actuario/a", 
+          "Inspector/a de calidad"
+        ] 
+      }
+    }
+  }
+}

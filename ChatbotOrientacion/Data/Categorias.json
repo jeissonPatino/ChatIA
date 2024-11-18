@@ -1,20 +1,63 @@
 {
-    "Tecnología": [
-      "¿Te gusta desarmar y armar aparatos electrónicos?",
-      "¿Te interesa aprender sobre programación?",
-      "¿Prefieres resolver problemas lógicos o creativos?",
-      "¿Te sientes cómodo/a trabajando con computadoras la mayor parte del tiempo?"
-    ],
-    "Ciencias": [
-      "¿Te gustan las matemáticas y la física?",
-      "¿Te interesa investigar y descubrir cosas nuevas?",
-      "¿Eres curioso/a y te gusta hacer experimentos?",
-      "¿Te gustaría trabajar en un laboratorio o en el campo?"
-    ],
-    "Artes": [
-      "¿Te gusta dibujar, pintar o esculpir?",
-      "¿Disfrutas de la música, el teatro o la danza?",
-      "¿Eres creativo/a y te gusta expresarte a través del arte?",
-      "¿Te gustaría trabajar en un ambiente creativo e inspirador?"
-    ]
+  "Tecnología": {
+      "Desarrollo de software": ["programación", "análisis", "diseño"],
+      "Ciencia de datos": ["estadística", "machine learning", "visualización"],
+      "Soporte técnico": ["hardware", "software", "redes"],
+      "Ciberseguridad": ["seguridad informática", "criptografía", "auditoría"],
+      "Inteligencia Artificial": ["algoritmos", "aprendizaje automático", "procesamiento del lenguaje natural"]
+  },
+  "Ciencias": {
+      "Biología": ["investigación", "laboratorio", "medio ambiente"],
+      "Química": ["análisis", "experimentación", "síntesis"],
+      "Física": ["teoría", "experimentación", "computación"],
+      "Astronomía": ["cuerpos celestes", "cosmología", "telescopios"],
+      "Geología": ["minerales", "tectónica de placas", "medio ambiente"]
+  },
+  "Artes": {
+      "Música": ["composición", "interpretación", "teoría musical"],
+      "Pintura": ["óleo", "acuarela", "concepto artístico"],
+      "Teatro": ["actuación", "dirección", "guion"],
+      "Diseño Gráfico": ["tipografía", "edición digital", "creatividad"],
+      "Fotografía": ["edición", "composición", "manejo de cámaras"]
+  },
+  "Humanidades": {
+      "Psicología": ["conducta", "terapia", "análisis"],
+      "Filosofía": ["lógica", "ética", "pensamiento crítico"],
+      "Historia": ["investigación histórica", "análisis de fuentes", "patrimonio cultural"],
+      "Lingüística": ["fonética", "gramática", "traducción"]
+  },
+  "Ciencias Sociales": {
+      "Sociología": ["comportamiento colectivo", "estructura social", "cultura"],
+      "Antropología": ["arqueología", "etnografía", "evolución humana"],
+      "Economía": ["microeconomía", "macroeconomía", "econometría"],
+      "Ciencia Política": ["política pública", "relaciones internacionales", "teoría política"]
+  },
+  "Ingenierías": {
+      "Ingeniería Civil": ["estructuras", "construcción", "geotecnia"],
+      "Ingeniería Mecánica": ["termodinámica", "mecánica de materiales", "diseño de máquinas"],
+      "Ingeniería Electrónica": ["circuitos", "sistemas digitales", "telecomunicaciones"],
+      "Ingeniería Industrial": ["optimización", "logística", "gestión de procesos"],
+      "Ingeniería de Sistemas": ["arquitectura de sistemas", "base de datos", "software"]
+  },
+  "Negocios": {
+      "Administración": ["gestión", "estrategia", "recursos humanos"],
+      "Marketing": ["publicidad", "branding", "mercado objetivo"],
+      "Finanzas": ["contabilidad", "análisis financiero", "inversiones"],
+      "Emprendimiento": ["creatividad", "modelos de negocio", "liderazgo"],
+      "Comercio Internacional": ["logística global", "importación/exportación", "acuerdos comerciales"]
+  },
+  "Deportes": {
+      "Fútbol": ["estrategia", "trabajo en equipo", "condición física"],
+      "Natación": ["técnica", "resistencia", "disciplina"],
+      "Atletismo": ["velocidad", "fuerza", "competitividad"],
+      "Deportes de Aventura": ["riesgo", "supervivencia", "exploración"],
+      "Entrenamiento Deportivo": ["planificación", "nutrición", "motivación"]
+  },
+  "Salud": {
+      "Medicina": ["diagnóstico", "tratamiento", "investigación"],
+      "Enfermería": ["cuidado", "educación en salud", "asistencia"],
+      "Nutrición": ["dietética", "bienestar", "planificación alimenticia"],
+      "Fisioterapia": ["rehabilitación", "biomecánica", "ejercicio terapéutico"],
+      "Farmacia": ["medicamentos", "química farmacéutica", "regulación"]
   }
+}

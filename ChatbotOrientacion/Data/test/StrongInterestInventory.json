@@ -1,0 +1,211 @@
+{
+    "strong_interest_inventory": {
+      "description": "El Inventario de Intereses Strong es un test que te ayuda a identificar tus intereses ocupacionales para que puedas explorar carreras que se ajusten a tu perfil.",
+      "preguntas": [
+        {
+          "id": "S1",
+          "text": "Disfruto reparar o construir cosas.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S2",
+          "text": "Prefiero trabajos que requieran habilidades manuales.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S3",
+          "text": "Me gusta trabajar al aire libre.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S4",
+          "text": "Encuentro satisfacción en el uso de herramientas.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S5",
+          "text": "Me gusta analizar datos para resolver problemas.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S6",
+          "text": "Disfruto aprender sobre temas científicos o tecnológicos.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S7",
+          "text": "Prefiero trabajos que requieren pensar críticamente.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S8",
+          "text": "Encuentro satisfacción en realizar investigaciones profundas.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S9",
+          "text": "Disfruto actividades como pintar, dibujar o escribir.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S10",
+          "text": "Me gusta expresar mis ideas a través del arte o la música.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S11",
+          "text": "Prefiero trabajos creativos o innovadores.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S12",
+          "text": "Encuentro satisfacción en actividades artísticas.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S13",
+          "text": "Me gusta ayudar a los demás a resolver sus problemas.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S14",
+          "text": "Disfruto enseñar o entrenar a otras personas.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S15",
+          "text": "Prefiero actividades donde pueda interactuar con otros.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S16",
+          "text": "Encuentro satisfacción en participar en actividades comunitarias.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S17",
+          "text": "Disfruto liderar equipos o proyectos.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S18",
+          "text": "Me gusta persuadir a otros para que sigan mis ideas.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S19",
+          "text": "Prefiero trabajos donde pueda tomar decisiones importantes.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S20",
+          "text": "Encuentro satisfacción en planificar y organizar actividades.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S21",
+          "text": "Disfruto tareas que requieren organización y estructura.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S22",
+          "text": "Me gusta trabajar con números o documentos.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S23",
+          "text": "Prefiero trabajos con procedimientos claros y establecidos.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        },
+        {
+          "id": "S24",
+          "text": "Encuentro satisfacción en mantener el orden y la precisión.",
+          "opciones": ["1", "2", "3", "4", "5"]
+        }
+      ],
+      "escala_respuestas": {
+        "1": "Me disgusta mucho",
+        "2": "Me disgusta",
+        "3": "Indiferente",
+        "4": "Me gusta",
+        "5": "Me gusta mucho"
+      },
+      "areas_ocupacionales": {
+        "Ciencias": {
+          "descripcion": "Las personas con intereses en ciencias disfrutan investigando, analizando y resolviendo problemas. Suelen ser curiosas, analíticas y les gusta trabajar con ideas.",
+          "carreras": [
+            "Científico/a de datos",
+            "Biólogo/a",
+            "Químico/a",
+            "Físico/a",
+            "Astrónomo/a",
+            "Geólogo/a",
+            "Médico/a",
+            "Veterinario/a"
+          ]
+        },
+        "Tecnología": {
+          "descripcion": "Las personas con intereses en tecnología disfrutan trabajando con computadoras, desarrollando software y resolviendo problemas técnicos. Suelen ser lógicas, creativas y les gusta aprender cosas nuevas.",
+          "carreras": [
+            "Programador/a",
+            "Ingeniero/a de software",
+            "Analista de sistemas",
+            "Desarrollador/a web",
+            "Administrador/a de bases de datos",
+            "Especialista en ciberseguridad",
+            "Técnico/a de soporte"
+          ]
+        },
+        "Artes y Humanidades": {
+          "descripcion": "Las personas con intereses en artes y humanidades disfrutan expresándose creativamente, explorando ideas y comunicándose con los demás. Suelen ser imaginativas,  sensibles y les gusta el arte, la música, la literatura y la cultura.",
+          "carreras": [
+            "Escritor/a",
+            "Músico/a",
+            "Artista",
+            "Diseñador/a gráfico/a",
+            "Actor/Actriz",
+            "Bailarín/Bailarina",
+            "Periodista",
+            "Profesor/a de idiomas"
+          ]
+        },
+        "Ciencias Sociales": {
+          "descripcion": "Las personas con intereses en ciencias sociales disfrutan aprendiendo sobre la sociedad, la cultura y el comportamiento humano. Suelen ser empáticas,  curiosas y les gusta ayudar a los demás.",
+          "carreras": [
+            "Psicólogo/a",
+            "Sociólogo/a",
+            "Antropólogo/a",
+            "Trabajador/a social",
+            "Consejero/a",
+            "Historiador/a",
+            "Politólogo/a"
+          ]
+        },
+        "Negocios y Finanzas": {
+          "descripcion": "Las personas con intereses en negocios y finanzas disfrutan liderando,  organizando y tomando decisiones. Suelen ser ambiciosas,  persuasivas y les gusta trabajar con números.",
+          "carreras": [
+            "Empresario/a",
+            "Gerente",
+            "Contador/a",
+            "Analista financiero/a",
+            "Agente de ventas",
+            "Agente de bienes raíces",
+            "Banquero/a"
+          ]
+        },
+        "Oficios y Servicios": {
+          "descripcion": "Las personas con intereses en oficios y servicios disfrutan trabajando con personas, ayudándolas y brindando servicios. Suelen ser amables,  serviciales y les gusta trabajar en equipo.",
+          "carreras": [
+            "Enfermero/a",
+            "Trabajador/a social",
+            "Bombero/a",
+            "Oficial de policía",
+            "Cosmetólogo/a",
+            "Chef",
+            "Mecánico/a de aviones",
+            "Conductor/a de autobús"
+          ]
+        }
+      }
+    }
+  }
